@@ -273,6 +273,35 @@ Discarded input sections
  .text          0x0000000000000000       0x14 ./Startup/startup_stm32f407vgtx.o
  .data          0x0000000000000000        0x0 ./Startup/startup_stm32f407vgtx.o
  .bss           0x0000000000000000        0x0 ./Startup/startup_stm32f407vgtx.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .group         0x0000000000000000        0xc ./drivers/Src/stm32f407xx_gpio_driver.o
+ .text          0x0000000000000000        0x0 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .data          0x0000000000000000        0x0 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .bss           0x0000000000000000        0x0 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_info    0x0000000000000000       0x69 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_abbrev  0x0000000000000000       0x28 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000       0x7c ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000      0xaa8 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000       0x22 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000       0x8e ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000       0x51 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000      0x103 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000       0x6a ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000      0x1df ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_macro   0x0000000000000000      0x1bd ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_line    0x0000000000000000      0x491 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .debug_str     0x0000000000000000     0x47d9 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .comment       0x0000000000000000       0x44 ./drivers/Src/stm32f407xx_gpio_driver.o
+ .ARM.attributes
+                0x0000000000000000       0x2e ./drivers/Src/stm32f407xx_gpio_driver.o
  .text          0x0000000000000000        0x0 D:/Install/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-exit.o)
  .data          0x0000000000000000        0x0 D:/Install/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-exit.o)
  .bss           0x0000000000000000        0x0 D:/Install/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a(libc_a-exit.o)
@@ -519,6 +548,7 @@ LOAD ./Src/main.o
 LOAD ./Src/syscalls.o
 LOAD ./Src/sysmem.o
 LOAD ./Startup/startup_stm32f407vgtx.o
+LOAD ./drivers/Src/stm32f407xx_gpio_driver.o
 START GROUP
 LOAD D:/Install/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc_nano.a
 LOAD D:/Install/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
