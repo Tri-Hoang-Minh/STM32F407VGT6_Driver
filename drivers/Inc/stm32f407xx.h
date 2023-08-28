@@ -197,4 +197,12 @@ typedef struct
 #define SYSCFG_PCLK_EN() (RCC->APB2ENR |= (1 << 14))
 
 
+
+/*
+ * Some Generic Marcos
+ */
+#define ENABLE        1
+#define DISABLE       0
+#define SET           ENABLE
+#define RESET         DISABLE
 #endif /* INC_STM32F407XX_H_ */
