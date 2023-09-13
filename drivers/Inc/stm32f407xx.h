@@ -196,15 +196,21 @@ typedef struct
  */
 #define SYSCFG_PCLK_EN() (RCC->APB2ENR |= (1 << 14))
 
+/*
+ *  Macros to reset GPIOx peripherals
+ */
+
 
 
 /*
  * Some Generic Marcos
  */
-#define ENABLE        1
-#define DISABLE       0
-#define SET           ENABLE
-#define RESET         DISABLE
-#define GPIO_PIN_SET         SET
-#define GPIO_PIN_RESET       RESET
+#define ENABLE                1
+#define DISABLE               0
+#define SET                   ENABLE
+#define RESET                 DISABLE
+#define GPIO_PIN_SET          SET
+#define GPIO_PIN_RESET        RESET
+#define FLAG_RESET            RESET
+#define FLAG_SET              SET
 #endif /* INC_STM32F407XX_H_ */
